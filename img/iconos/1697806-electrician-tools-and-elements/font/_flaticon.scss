@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-transformer:before { content: "\f100"; }
+.flaticon-002-switch:before { content: "\f101"; }
+.flaticon-003-maintenance:before { content: "\f102"; }
+.flaticon-004-cable-reel:before { content: "\f103"; }
+.flaticon-005-electrician:before { content: "\f104"; }
+.flaticon-006-energy-class:before { content: "\f105"; }
+.flaticon-007-power-socket:before { content: "\f106"; }
+.flaticon-008-plugs:before { content: "\f107"; }
+.flaticon-009-voltage-indicator:before { content: "\f108"; }
+.flaticon-010-measuring-tape:before { content: "\f109"; }
+.flaticon-011-electric-meter:before { content: "\f10a"; }
+.flaticon-012-american-plug:before { content: "\f10b"; }
+.flaticon-013-screwdriver:before { content: "\f10c"; }
+.flaticon-014-electrical-circuit:before { content: "\f10d"; }
+.flaticon-015-soldering-iron:before { content: "\f10e"; }
+.flaticon-016-solar-panel:before { content: "\f10f"; }
+.flaticon-017-telephone-socket:before { content: "\f110"; }
+.flaticon-018-drill:before { content: "\f111"; }
+.flaticon-019-chandelier:before { content: "\f112"; }
+.flaticon-020-led-light:before { content: "\f113"; }
+.flaticon-021-pliers:before { content: "\f114"; }
+.flaticon-022-electrical:before { content: "\f115"; }
+.flaticon-023-fuse-box:before { content: "\f116"; }
+.flaticon-024-capacitor:before { content: "\f117"; }
+.flaticon-025-generator:before { content: "\f118"; }
+.flaticon-026-multimeter:before { content: "\f119"; }
+.flaticon-027-socket:before { content: "\f11a"; }
+.flaticon-028-street-lamp:before { content: "\f11b"; }
+.flaticon-029-insulating-tape:before { content: "\f11c"; }
+.flaticon-030-hammer:before { content: "\f11d"; }
+.flaticon-031-electric-tower:before { content: "\f11e"; }
+.flaticon-032-toolbox:before { content: "\f11f"; }
+.flaticon-033-voltmeter:before { content: "\f120"; }
+.flaticon-034-cooling-system:before { content: "\f121"; }
+.flaticon-035-electric-motor:before { content: "\f122"; }
+.flaticon-036-electrical-panel:before { content: "\f123"; }
+.flaticon-037-glove:before { content: "\f124"; }
+.flaticon-038-circuit:before { content: "\f125"; }
+.flaticon-039-cord:before { content: "\f126"; }
+.flaticon-040-cutter:before { content: "\f127"; }
+.flaticon-041-battery:before { content: "\f128"; }
+.flaticon-042-flashlight:before { content: "\f129"; }
+.flaticon-043-light-bulb:before { content: "\f12a"; }
+.flaticon-044-electric-heater:before { content: "\f12b"; }
+.flaticon-045-screw-terminal:before { content: "\f12c"; }
+.flaticon-046-wires:before { content: "\f12d"; }
+.flaticon-047-accumulator:before { content: "\f12e"; }
+.flaticon-048-cooker:before { content: "\f12f"; }
+.flaticon-049-table-lamp:before { content: "\f130"; }
+.flaticon-050-wire-connection:before { content: "\f131"; }
+
+$font-Flaticon-001-transformer: "\f100";
+$font-Flaticon-002-switch: "\f101";
+$font-Flaticon-003-maintenance: "\f102";
+$font-Flaticon-004-cable-reel: "\f103";
+$font-Flaticon-005-electrician: "\f104";
+$font-Flaticon-006-energy-class: "\f105";
+$font-Flaticon-007-power-socket: "\f106";
+$font-Flaticon-008-plugs: "\f107";
+$font-Flaticon-009-voltage-indicator: "\f108";
+$font-Flaticon-010-measuring-tape: "\f109";
+$font-Flaticon-011-electric-meter: "\f10a";
+$font-Flaticon-012-american-plug: "\f10b";
+$font-Flaticon-013-screwdriver: "\f10c";
+$font-Flaticon-014-electrical-circuit: "\f10d";
+$font-Flaticon-015-soldering-iron: "\f10e";
+$font-Flaticon-016-solar-panel: "\f10f";
+$font-Flaticon-017-telephone-socket: "\f110";
+$font-Flaticon-018-drill: "\f111";
+$font-Flaticon-019-chandelier: "\f112";
+$font-Flaticon-020-led-light: "\f113";
+$font-Flaticon-021-pliers: "\f114";
+$font-Flaticon-022-electrical: "\f115";
+$font-Flaticon-023-fuse-box: "\f116";
+$font-Flaticon-024-capacitor: "\f117";
+$font-Flaticon-025-generator: "\f118";
+$font-Flaticon-026-multimeter: "\f119";
+$font-Flaticon-027-socket: "\f11a";
+$font-Flaticon-028-street-lamp: "\f11b";
+$font-Flaticon-029-insulating-tape: "\f11c";
+$font-Flaticon-030-hammer: "\f11d";
+$font-Flaticon-031-electric-tower: "\f11e";
+$font-Flaticon-032-toolbox: "\f11f";
+$font-Flaticon-033-voltmeter: "\f120";
+$font-Flaticon-034-cooling-system: "\f121";
+$font-Flaticon-035-electric-motor: "\f122";
+$font-Flaticon-036-electrical-panel: "\f123";
+$font-Flaticon-037-glove: "\f124";
+$font-Flaticon-038-circuit: "\f125";
+$font-Flaticon-039-cord: "\f126";
+$font-Flaticon-040-cutter: "\f127";
+$font-Flaticon-041-battery: "\f128";
+$font-Flaticon-042-flashlight: "\f129";
+$font-Flaticon-043-light-bulb: "\f12a";
+$font-Flaticon-044-electric-heater: "\f12b";
+$font-Flaticon-045-screw-terminal: "\f12c";
+$font-Flaticon-046-wires: "\f12d";
+$font-Flaticon-047-accumulator: "\f12e";
+$font-Flaticon-048-cooker: "\f12f";
+$font-Flaticon-049-table-lamp: "\f130";
+$font-Flaticon-050-wire-connection: "\f131";
