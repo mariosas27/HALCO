@@ -20,7 +20,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <h3 class="my-3 heading">Redes sociales </h3>
+                    <h3 class="my-3 footer-heading">Redes sociales </h3>
                     <nav class="sociales text-left">
                         <ul class="">
                             <li><a href="https://www.instagram.com/halco.93/" target="_blank"><i class="fab fa-instagram"></i> @Halco.93</a></li>
