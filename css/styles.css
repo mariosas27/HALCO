@@ -38,6 +38,7 @@ h2{
 .navbar-light .navbar-nav .nav-link:hover{
     background-color: rgb(4, 76, 181);
     color: #ffffff;
+    cursor: pointer;
     border-radius: 5px;
 }
 
@@ -250,6 +251,7 @@ h2{
 /* FOOTER */
 footer{
     background-color: rgb(4, 76, 181);
+    /* background-color: #08192b; */
     color: rgba(247, 247, 247, 0.9);
 }
 .copyright{
@@ -262,16 +264,15 @@ footer{
     margin: 0;
     padding: 0;
 }
-.sociales ul li{
-    display: inline-block;
-    
-}
 
-.sociales ul i{
-    font-size: 2rem;
+
+.sociales ul i, .sociales ul a{
+    font-size: 1rem;
     color: #000000;
     color: rgba(247, 247, 247, 0.9);
 }
+
+
 
 /* INTERNAS */
 
@@ -367,3 +368,265 @@ footer{
     justify-content: center;
     padding: 2rem;
 }
+
+/* PROYECTOS */
+
+.hero-interna-proyectos{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(90, 72, 72, 0.6)), url("../img/heroNosotros.jpg");
+  
+    /* Set a specific height */
+    height: 600px;
+    max-height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+
+
+.hero-interna-text {
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.hero-interna-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3.9rem;
+}
+
+
+
+.encabezado-proyecto h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.card{
+    border: none;   
+}
+
+
+.card .proyecto-link{
+    position: relative;
+    /* display: block; */
+} 
+
+
+.card .proyecto-link:hover .proyecto-hover{
+    opacity: 1;
+}
+
+
+.card .proyecto-link .proyecto-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(254, 209, 54, 0.9); */
+    background: rgba(4, 76, 181, 0.8);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+
+.card .proyecto-link .proyecto-hover .proyecto-hover-content{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.card-body h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;  
+
+}
+
+.proyectos-principal{
+    background-color: #F8F9FA;
+}
+
+
+/* MODALES */
+.modal-encabezado{
+    background-color: rgb(4, 76, 181);
+    color: #ffffff;
+}
+
+
+.modal-header .proyecto-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.modal-body .modal-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.servicios-prestados{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+.my-list-group .list-group-item{
+    background-color: #fafafa;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.my-list-group .list-group-item:hover{
+    background-color: #ffffff;  
+}
+
+
+/**------------- contacto -----------------**/
+
+.container-formulario h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.iconos-contacto .icono-contenido{
+    margin-top: 2rem;
+}
+
+
+.iconos-contacto a, .iconos-contacto p{
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.iconos-contacto a:hover{
+    text-decoration: none;
+}
+
+.iconos-contacto .correo{
+    line-height: .5rem;
+}
+
+.informacion-contacto{
+    color: #ffffff;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding: 1rem;
+}
+
+.mapa, .contenedor-datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 590px){
+    .informacion-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+
+
+.contacto p {
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+legend {
+    font-size: 1rem;
+    color: #4f4f4f;
+}
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: .5rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea {
+    height: 10rem;
+}
+.forma-contacto {
+    max-width:20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enviar{
+    display: flex;
+}
+
+.enviar .btn{
+    font-weight: 700;
+}
+
+.formulario-info .formulario-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-info .formulario-logo img{
+    width: 20rem;
+}
+
+.iconos-contacto{
+    padding: 1rem 2rem;
+    /* background-color: rgb(242, 242, 242); */
+}
+
+.iconos-contacto i{
+    font-size: 3rem;
+    color: #254697;
+}
+
+/* otros estilos al footer */
+.footer-contacto p{
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+.footer-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.footer-nav a{
+    color: rgba(247, 247, 247, 0.9); ;
+}
+
+
+/* <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> */
+
