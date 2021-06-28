@@ -105,12 +105,15 @@
                 </div>
             </div>
 
-            <!-- <div class="servicio">
-                <div class="icono">
-                        <img src="img/iconos/1697806-electrician-tools-and-elements/svg/033-voltmeter.svg" alt="Icono Pruebas">
-                </div>  
-                <h3 class="centrar-texto">Pruebas y Estudios</h3>
-            </div> -->
+            <div class="servicio wow zoomIn" data-wow-delay=".6s">
+                <div class="servicio-contenido"> 
+                    <div class="icono">
+                        <img src="img/iconos/enchufe.svg" alt="Icono aislamiento">
+                    </div>
+                    <h3 class="centrar-texto">Estudio de resitencia de aislamiento</h3>
+                    <p>Proyectos en media y naja tensión, memorias de cálculo y trámites ante CFE.</p>
+                </div>
+            </div>
         </div>
         <!-- <div class="contenedor all-services">
             <a href="servicios.html" class="btn btn-azul">Ver todos</a>
