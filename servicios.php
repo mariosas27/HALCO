@@ -110,7 +110,16 @@
                     <div class="icono">
                         <img src="img/iconos/enchufe.svg" alt="Icono aislamiento">
                     </div>
-                    <h3 class="centrar-texto">Estudio de resitencia de aislamiento</h3>
+                    <h3 class="centrar-texto"></p>
+                </div>
+            </div>
+
+            <div class="servicio wow zoomIn" data-wow-delay=".6s">
+                <div class="servicio-contenido"> 
+                    <div class="icono">
+                        <img src="img/iconos/temperatura.svg" alt="Icono media tensión">
+                    </div>
+                    <h3 class="centrar-texto">Estudios de termografía</h3>
                     <p>Proyectos en media y naja tensión, memorias de cálculo y trámites ante CFE.</p>
                 </div>
             </div>
