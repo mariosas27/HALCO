@@ -9,7 +9,7 @@
     <div class="hero-image">
         <div class="hero-text">
             <h1>INGENIERÍA ELÉCTRICA A TU ALCANCE</h1>
-            <p>Somos tu mejor elección</p>
+            <p class="hero-extra">Somos tu mejor elección</p>
             <a href="#" class="btn btn-primary  text-uppercase py-2 px-5">ir a Servicios</a>
         </div>
     </div>
