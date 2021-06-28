@@ -80,7 +80,7 @@
             <div class="servicio wow zoomIn" data-wow-delay=".6s">
                 <div class="servicio-contenido"> 
                     <div class="icono">
-                        <img src="img/iconos/lampara.svg" alt="Icono media tensión">
+                        <img src="img/iconos/lampara.svg" alt="Icono iluminacion">
                     </div>
                     <h3 class="centrar-texto">Iluminación arquitectónica</h3>
                     <p>Proyectos en media y naja tensión, memorias de cálculo y trámites ante CFE.</p>
@@ -89,7 +89,7 @@
             <div class="servicio wow zoomIn" data-wow-delay=".6s">
                 <div class="servicio-contenido"> 
                     <div class="icono">
-                        <img src="img/iconos/electricidad.svg" alt="Icono media tensión">
+                        <img src="img/iconos/electricidad.svg" alt="Icono calidad">
                     </div>
                     <h3 class="centrar-texto">Estudios en calidad de energía</h3>
                     <p>Proyectos en media y naja tensión, memorias de cálculo y trámites ante CFE.</p>
@@ -98,10 +98,11 @@
             <div class="servicio wow zoomIn" data-wow-delay=".6s">
                 <div class="servicio-contenido"> 
                     <div class="icono">
-                        <img src="img/iconos/temperatura.svg" alt="Icono media tensión">
+                        <img src="img/iconos/temperatura.svg" alt="Icono termografía">
                     </div>
-                    <h3 class="centrar-texto">Estudios de termografía</h3>
-                    <p>Proyectos en media y naja tensión, memorias de cálculo y trámites ante CFE.</p>
+                    <h3 class="centrar-texto">Termografía a equipo eléctrico</h3>
+                    <p>Ofrecemos estudio de termografía a equipos eléctricos como transformadores, motores,
+                    contactores con la finalidad de detectar posibles fallas por falsos contactos o alguna otra anomalía.</p>
                 </div>
             </div>
 
@@ -110,19 +111,35 @@
                     <div class="icono">
                         <img src="img/iconos/enchufe.svg" alt="Icono aislamiento">
                     </div>
-                    <h3 class="centrar-texto"></p>
+                    <h3 class="centrar-texto">Estudio de resitencia de aislamiento</h3>
+                    <p>Ofrecemos estudio de resistencia de aislamiento mediante megohmetro debidamente calibrado.
+                    Las pruebas de resistencia de aislamiento ayudarán a determinar la vida útil de los equipos
+                    eléctricos a los cuales se les hará la prueba, pudiendo ser: motores, transformadores, cables,
+                    tableros etc.</p>
                 </div>
             </div>
 
             <div class="servicio wow zoomIn" data-wow-delay=".6s">
                 <div class="servicio-contenido"> 
                     <div class="icono">
-                        <img src="img/iconos/temperatura.svg" alt="Icono media tensión">
+                        <img src="img/iconos/quimica.svg" alt="Icono aislamiento">
                     </div>
-                    <h3 class="centrar-texto">Estudios de termografía</h3>
-                    <p>Proyectos en media y naja tensión, memorias de cálculo y trámites ante CFE.</p>
+                    <h3 class="centrar-texto">Pruebas de aceite a transformadores</h3>
+                    <p>Ofrecemos laboratorios para estudio de aceite en transformadores de cualquier potencia</p>
                 </div>
             </div>
+
+            <div class="servicio wow zoomIn" data-wow-delay=".6s">
+                <div class="servicio-contenido"> 
+                    <div class="icono">
+                        <img src="img/iconos/destello.svg" alt="Icono tierras">
+                    </div>
+                    <h3 class="centrar-texto">Estudio y diseño de tierras físicas</h3>
+                    <p class="info-contenido">Ofrecemos diseño de sistemas de tierras físicas, memorias de cálculo, medición de resistividad del
+                    terreno así como medicion de resistencia de tierras físicas bajo normatividad vigente.</p>
+                </div>
+            </div>
+            
         </div>
         <!-- <div class="contenedor all-services">
             <a href="servicios.html" class="btn btn-azul">Ver todos</a>
